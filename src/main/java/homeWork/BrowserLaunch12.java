@@ -1,5 +1,7 @@
 package homeWork;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver.Navigation;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class BrowserLaunch12 {
@@ -11,11 +13,8 @@ public class BrowserLaunch12 {
 		ChromeDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 
-		driver.get("https://login.salesforce.com");
-
-
-
+		driver.get("https://letcode.in/buttons");		
+	
 
 	}
-
 }
